@@ -28,6 +28,8 @@ let discounted_price_with_decimal = discounted_price.toFixed(2);
 
 console.log(`il costo del biglietto ammonta a ${discounted_price_with_decimal} euro`);
 
+document.getElementById("ticket_price").innerHTML = `Il costo del biglietto ammonta a ${discounted_price_with_decimal} euro`;
+
 
 
 
